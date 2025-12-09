@@ -1,0 +1,40 @@
+/* Base button */
+.nav ul li a {
+  display: block;
+  padding: 16px 40px;
+  background-color: #f4f7f8;      /* light gray background */
+  color: #000000;                 /* black text */
+  text-transform: none;
+  letter-spacing: .07em;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 19px;
+
+  /* Round black border for visibility */
+  border: 3px solid #000000;
+  border-radius: 15px;
+
+  /* Blue shadow for contrast */
+  box-shadow: 6px 6px 0px rgba(38, 96, 164, 1);
+
+  text-decoration: none;
+
+  /* Animation to signal choice to user */
+  transition: 
+    background-color 0.3s ease,
+    box-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+/* Transform upon hover */
+.nav ul li a:hover {
+  background-color: #F9DD73;      /* gold highlight */
+  color: #000000;
+
+  /* Larger, darker shadow */
+  box-shadow: 8px 8px 0px rgba(97, 49, 3, 1);
+
+  /* Lift on hover to signal choice to user */
+  transform: translateY(-4px);
+}
