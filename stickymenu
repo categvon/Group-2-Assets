@@ -1,0 +1,23 @@
+/* Sticky Menu for ease of navigability */
+body.affix .cento-header .nav-wrap {
+  position: fixed;
+  top: 0;
+  z-index: 15;
+  border-bottom: 3px solid #8FB8ED; /* blue bottom to signal end of menu */
+}
+
+/* default header bar */
+.cento-header {
+  width: 100%;
+  background: #ffffff;
+  padding: 0;
+  border-bottom: 3px solid #8FB8ED; /* blue bottom to signal end of menu */
+}
+
+/* container to fit header */
+.cento-header .nav-wrap {
+  width: 100%;
+  padding: 13px;
+  background: #ffffff;
+  box-sizing: border-box;
+}
