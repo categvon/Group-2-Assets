@@ -1,4 +1,4 @@
-/* Sticky Menu for ease of navigability */
+/* sticky menu for ease of navigability */
 body.affix .cento-header .nav-wrap {
   position: fixed;
   top: 0;
